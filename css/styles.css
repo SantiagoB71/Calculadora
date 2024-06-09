@@ -6,7 +6,7 @@
 
 /*DECLARACION DE VARIABLES*/
 :root{
-    --color-fondo:#ececec;
+    --color-fondo:linear-gradient(180deg, #ECECEC 0%, #989898 98.4%);;
 
     --color-principal:#0B2639;
     --color-secundario:#1FBEFF;
@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-fondo);
+    background: var(--color-fondo);
 }
 
 .layout__main {
@@ -42,7 +42,7 @@ body {
     min-height: 60rem;
     border-radius: 2.5rem;
     background-color: var(--color-principal);
-    /*box-shadow: 0 0 14px var(--color-secundario);*/
+    box-shadow: 0 0 14px var(--color-principal);
     color: var(--color-letra);
 }
 
