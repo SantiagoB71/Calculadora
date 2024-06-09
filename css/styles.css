@@ -1,0 +1,24 @@
+@font-face{
+    font-family:'itim';
+    src: url(/assets/fonts/Itim-Regular.ttf);
+}
+
+
+:root{
+    --color-fondo:#ececec;
+
+    --color-principal:#0B2639;
+    --color-secundario:#1FBEFF;
+    --color-terceario:#F2F2F4;
+
+    --color-c:#CC642D;
+}
+
+html{
+    font-size: 10px;
+}
+
+body {
+    font-family: "itim", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+  }
