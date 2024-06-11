@@ -44,6 +44,7 @@ body {
     background-color: var(--color-principal);
     box-shadow: 0 0 14px var(--color-principal);
     color: var(--color-letra);
+    overflow: hidden;
 }
 
 .main__calculadora--header{
@@ -52,7 +53,21 @@ body {
     text-align: center;
     border-bottom:2px solid var(--color-simbolos);
 }
-
+.main__calculadora--proceso,
+.main__calculadora--respuesta{
+    font-family:'Lucida Sans', Arial, sans-serif;
+    text-align: end;
+}
+.main__calculadora--proceso{
+    padding-right: 2.2rem;
+    padding-top: 5.4rem;
+    color: #BDBCBD;
+}
+.main__calculadora--respuesta{
+    padding-right: 2rem;
+    font-size: 5rem;
+    font-weight: 800;
+}
 .main__calculadora--content{
     display: grid;
     grid-template-areas: "number number number sign";
@@ -115,4 +130,8 @@ body {
     margin: 1rem;
     gap: 10px;
     border-radius: 3rem;
+}
+
+.calculadora__buttons--equal:hover{
+    background: linear-gradient(124deg, #1278a0 8.26%, #9ce3fe 100%);
 }
